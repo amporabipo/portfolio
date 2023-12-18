@@ -1,8 +1,15 @@
 'use client'
 import { Canvas } from '@react-three/fiber'
-import Box from './components/geometry'
+import {
+  GeometryOne,
+  GeometryThree,
+  GeometryTwo,
+  GeometryFour,
+  GeometryFive,
+  GeometrySix
+} from '@/app/components/geometrics'
 import { Html } from '@react-three/drei'
-import { Board } from './components/board'
+import { Board } from '@/app/components/board'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -12,10 +19,15 @@ export default function Home() {
         <Canvas camera={{ position: [0, 0, 10], fov: 75 }}>
           <ambientLight />
           <pointLight position={[10, 10, 10]} />
-          <Box />
+          <GeometryOne />
           <Html center>
             <Board />
           </Html>
+          <GeometryTwo />
+          <GeometryThree />
+          <GeometryFour />
+          <GeometryFive />
+          <GeometrySix />
         </Canvas>
       </div>
     </>

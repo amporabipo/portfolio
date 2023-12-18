@@ -1,0 +1,6 @@
+export * from '@/app/components/geometrics/OneGeometrys'
+export * from '@/app/components/geometrics/TwoGeometrys'
+export * from '@/app/components/geometrics/ThreeGeometrys'
+export * from '@/app/components/geometrics/FourGeometrycs'
+export * from '@/app/components/geometrics/FiveGeometrycs'
+export * from '@/app/components/geometrics/SixGeometrycs'
