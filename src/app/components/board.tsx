@@ -74,7 +74,7 @@ export function Board() {
             src="./logo.svg"
             alt="logo"
             height={150}
-            width={350}
+            width={250}
           ></Image>
         </div>
 
