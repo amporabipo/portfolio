@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  width: 35em;
+  height: 35em;
+  background-color: black;
+  border: 1px solid #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .board {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.contentent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contentent {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.btn button {
+  background-color: black;
+  border: 1px #f9f9f9 solid;
+  margin-top: 2em;
+  padding: 1em 4em;
+}
+
+@media screen and (max-width: 768px) {
+  .board {
+    width: 30em;
+    height: 45em;
+  }
+}
+
+.OneLayer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.OneLayerLeft ul {
+  list-style: none;
+  padding-left: 2em;
+  font-family: monospace;
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 768px) {
+  .OneLayer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .OneLayerLeft ul {
+    margin-top: 1em;
+    padding-left: 1em;
+  }
+
+  .OneLayerLeft li {
+    margin: 0.2em;
+  }
+}
+
+.TwoLayer {
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.TwoLayer h1 {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.TwoLayer p {
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .TwoLayer {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+}
+
+.ThreeLayer {
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.ThreeLayer h1 {
+  font-family: monospace;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ThreeLayer ul {
+  list-style: none;
+  display: inline;
+}
+
+.ThreeLayer li {
+  display: inline;
+  font-size: 40px;
+  margin: 0.5em;
+}
+
+.ThreeLayer li:hover {
+  color: #d9d9d9;
+}
+
+
+.FourLayer {
+  text-align: center;
+}
+
+.FourLayer h1 {
+  font-family: monospace;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.FourLayer ul {
+  list-style: none;
+}
+
+.FourLayer li {
+  display: inline;
+  font-size: 35px;
+  margin: 0.5em;
+}
+
+.FourLayer li:hover {
+  color: #d9d9d9;
+}
+
+
+@media screen and (max-width: 768px) {
+  .FourLayer h1 {
+    margin-bottom: 1em;
+  }
+}
+
+.FiveLayer {
+  text-align: center;
+}
+
+.FiveLayer h1 {
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 300;
+}
+
+.FiveLayer ul {
+  list-style: none;
+}
+
+.FiveLayer li {
+  display: inline;
+  font-size: 35px;
+  margin: 0.5em;
+}
+
+.FiveLayer li:hover {
+  color: #d9d9d9;
+}
+
+@media screen and (max-width: 768px) {
+  .FiveLayer h1 {
+    padding-bottom: 1em;
+
+  }
+}
