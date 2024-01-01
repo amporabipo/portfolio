@@ -12,7 +12,7 @@ export function GeometryFour() {
 
   return (
     <>
-      <mesh position={[8, 5, -1]} ref={myMesh}>
+      <mesh position={[-5, -5, -1]} ref={myMesh}>
         <meshBasicMaterial
           wireframe={true}
           color={'#'}

@@ -6,7 +6,8 @@ import {
   GeometryTwo,
   GeometryFour,
   GeometryFive,
-  GeometrySix
+  GeometrySix,
+  GeometrySeven
 } from '@/app/components/geometrics'
 import { Html } from '@react-three/drei'
 import { Board } from '@/app/components/board'
@@ -20,14 +21,11 @@ export default function Home() {
           <ambientLight />
           <pointLight position={[10, 10, 10]} />
           <GeometryOne />
+          <GeometryTwo />
+
           <Html center>
             <Board />
           </Html>
-          <GeometryTwo />
-          <GeometryThree />
-          <GeometryFour />
-          <GeometryFive />
-          <GeometrySix />
         </Canvas>
       </div>
     </>

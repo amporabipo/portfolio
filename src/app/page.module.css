@@ -16,7 +16,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .board {
     width: 20em;
     height: 20em;
@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .contentent {
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@
   padding: 1em 4em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .board {
     width: 22em;
     height: 45em;
@@ -69,7 +69,7 @@
   font-size: 1.4em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .OneLayer {
     display: flex;
     flex-direction: column-reverse;
@@ -105,7 +105,7 @@
   font-weight: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .TwoLayer {
     padding-left: 2em;
     padding-right: 2em;
@@ -168,7 +168,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .FourLayer h1 {
     margin-bottom: 1em;
   }
@@ -199,7 +199,7 @@
   color: #d9d9d9;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .FiveLayer h1 {
     padding-bottom: 1em;
 

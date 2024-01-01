@@ -7,18 +7,18 @@ export function GeometryFive() {
 
   useFrame(({ clock }) => {
     const a = clock.getElapsedTime() / 20;
-    myMesh.current!.rotation.x = a;
+    myMesh.current!.rotation.z = a;
   })
 
   return (
     <>
-      <mesh position={[0, 1.2, 7]} ref={myMesh}>
+      <mesh position={[5, 5, -1]} ref={myMesh}>
         <meshBasicMaterial
           wireframe={true}
-          color={'#c9c9c9'}
+          color={'#f9f9f9'}
         />
-        <torusGeometry
-          args={[2, 2, 2, 2, 1.5]}
+        <torusKnotGeometry
+          args={[1, 4, 3, 1, 4, 3]}
         />
       </mesh>
     </>
