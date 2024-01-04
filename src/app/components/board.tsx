@@ -37,17 +37,28 @@ export function Board() {
   const [state, setState] = useState<number>(0)
 
   const HandleChangeComponent = () => {
-
     setState(state + 1)
-    console.log(state)
     if (state === 4) {
       setState(0)
     }
   }
+
+  const handleClickDataChild = (num: number) =>{
+      if(num === 1){
+          setState(num)
+      }if(num === 2){
+        setState(num)
+      }if(num ===3){
+        setState(num)
+      }if(num===4){
+        setState(num)
+      }
+  }
+
   const RenderComponent = () => {
     switch (state) {
       case 0:
-        return <OneLayer />
+        return <OneLayer sendData={handleClickDataChild} />
       case 1:
         return <TwoLayer />
       case 2:
@@ -82,7 +93,7 @@ export function Board() {
           {RenderComponent()}
         </div>
         <div className={styles.btn}>
-          <button onClick={HandleChangeComponent}><IoIosArrowForward />
+          <button className={styles.onclicks} onClick={HandleChangeComponent}><IoIosArrowForward/>
           </button>
         </div>
       </div>
