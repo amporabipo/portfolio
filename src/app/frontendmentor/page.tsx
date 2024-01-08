@@ -21,7 +21,7 @@ export default function Page(){
                   <div className={style.projects}>
                       <h1>Challengs</h1>
                       <ul>
-                        <li> <Link href="/frontendmentor/challenguno"><HiArrowSmRight />
+                        <li> <Link href="/frontendmentor/qrchallenge "><HiArrowSmRight />
 QR code component </Link></li>
                       </ul>
                   </div>

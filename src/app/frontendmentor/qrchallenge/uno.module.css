@@ -1,0 +1,53 @@
+/*
+  Variables: 
+
+  Nota: para modulos no se pueden
+  usar varibles de css.
+   
+
+  --font-weight-title: 700;
+  --font-weight-paragraf: 400;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --gray-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+*/
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+.card{
+  width: 18rem;
+  height: 27rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 2em;
+}
+.myimg{
+  
+  border-radius: 15px;
+}
+.card span{
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight:700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+.card p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%); 
+}
